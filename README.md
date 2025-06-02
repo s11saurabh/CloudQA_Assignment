@@ -4,9 +4,7 @@ A comprehensive C# Selenium automation framework designed to test the CloudQA pr
 
 ## 🎯 Project Overview
 
-This automation suite addresses the common challenge in web testing where HTML elements frequently change their properties, positions, or structure during development cycles. Traditional automation scripts often break when developers modify element IDs, class names, or DOM hierarchy. This project implements a sophisticated multi-tier locator strategy that ensures tests remain functional even when the underlying HTML structure evolves.
-
-The solution focuses on testing three critical form fields on the CloudQA practice form, implementing a resilient architecture that can adapt to various types of HTML changes without requiring test maintenance. This approach significantly reduces the total cost of ownership for automation suites in dynamic development environments.
+This automation suite addresses the common challenge where HTML elements frequently change properties, positions, or structure during development. Traditional scripts break when developers modify element IDs, class names, or DOM hierarchy. This project implements sophisticated multi-tier locator strategy ensuring tests remain functional despite HTML evolution.
 
 ## 🎬 Demo and Repository
 
@@ -41,6 +39,29 @@ The automation suite comprehensively tests three critical form elements, each re
 
 Each scenario validates not only successful data entry but also field persistence across page interactions, ensuring data integrity throughout the user session.
 
+
+## 📊 Project Structure
+
+```
+CloudQA_Assignment/
+├── Tests/
+│   ├── CloudQAFormTests.cs          # Main test orchestrator
+│   ├── BaseTest.cs                   # Shared test infrastructure
+│   └── UnitTest1.cs                  # Additional test utilities
+├── PageObjects/
+│   └── CloudQAFormPage.cs            # Form interaction abstraction
+├── Utilities/
+│   ├── RobustElementLocator.cs       # Multi-tier element finder
+│   └── TestLogger.cs                 # Comprehensive logging system
+├── Config/
+│   └── appsettings.json              # Configuration management
+├── Screenshots/                      # Failure documentation
+├── TestResults/                      # Execution reports
+├── CloudQATests.csproj               # Project configuration
+└── README.md                         # Project documentation
+```
+
+This organized structure promotes code maintainability, supports team collaboration, and enables efficient project navigation.
 
 ## 🚀 Key Features
 
@@ -230,28 +251,6 @@ The Page Object Model implementation provides several key advantages for automat
 
 **Readability** - Test code remains focused on business logic rather than technical implementation details, improving comprehension for non-technical stakeholders.
 
-## 📊 Project Structure
-
-```
-CloudQA_Assignment/
-├── Tests/
-│   ├── CloudQAFormTests.cs          # Main test orchestrator
-│   ├── BaseTest.cs                   # Shared test infrastructure
-│   └── UnitTest1.cs                  # Additional test utilities
-├── PageObjects/
-│   └── CloudQAFormPage.cs            # Form interaction abstraction
-├── Utilities/
-│   ├── RobustElementLocator.cs       # Multi-tier element finder
-│   └── TestLogger.cs                 # Comprehensive logging system
-├── Config/
-│   └── appsettings.json              # Configuration management
-├── Screenshots/                      # Failure documentation
-├── TestResults/                      # Execution reports
-├── CloudQATests.csproj               # Project configuration
-└── README.md                         # Project documentation
-```
-
-This organized structure promotes code maintainability, supports team collaboration, and enables efficient project navigation.
 
 ## 🔧 Configuration and Customization
 
@@ -321,11 +320,12 @@ This project welcomes contributions that enhance its robustness, maintainability
 
 ## 📞 Contact
 
-For questions about this implementation or the CloudQA developer internship application, please refer to the GitHub repository issues section or the provided contact information in the original assignment communication.
+Developer: Saurabh Kumar
+Email: saurabhsinghania111@gmail.com
+Portfolio: https://popo-pi.vercel.app/
+GitHub: https://github.com/s11saurabh/CloudQA_Assignment
+**Framework**: C# + Selenium WebDriver  
+**Architecture**: Page Object Model with Robust Element Location
 
 ---
 
-**Developed by**: Saurabh  
-**Assignment**: CloudQA Developer Internship  
-**Framework**: C# + Selenium WebDriver  
-**Architecture**: Page Object Model with Robust Element Location
