@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2e4a07a8-be0c-4bd4-8676-8596ba8962de" name="Hello@DESKTOP-LGI5UEV 2025-05-31 23:04:00" runUser="DESKTOP-LGI5UEV\Hello" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-05-31T23:04:00.1811881+05:30" queuing="2025-05-31T23:04:00.1811890+05:30" start="2025-05-31T23:03:35.8823040+05:30" finish="2025-05-31T23:04:26.3049348+05:30" />
+  <TestSettings name="default" id="d3a0e40e-c52c-4078-ab8b-6834168a4ad4">
+    <Deployment runDeploymentRoot="Hello_DESKTOP-LGI5UEV_2025-05-31_23_04_00" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c9f04b69-14ea-40fd-bdee-d8ee93caafb5" testId="678352ef-a21b-b5cb-6b70-3ad85ee23bca" testName="ValidFormSubmission_Scenario3" computerName="DESKTOP-LGI5UEV" duration="00:00:12.6335770" startTime="2025-05-31T23:04:13.4130926+05:30" endTime="2025-05-31T23:04:26.0466702+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9f04b69-14ea-40fd-bdee-d8ee93caafb5">
+      <Output>
+        <StdOut>[2025-05-31 23:04:15.784] Test setup completed successfully&#xD;
+[2025-05-31 23:04:15.786] Starting test with data: Bob, Australia, Cricket&#xD;
+[2025-05-31 23:04:23.024] Successfully navigated to: https://app.cloudqa.io/home/AutomationPracticeForm&#xD;
+[2025-05-31 23:04:23.024] Testing First Name field...&#xD;
+[2025-05-31 23:04:23.025] Attempt 1: Trying to find 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.118] ✓ Successfully found 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.118] Executing action: Enter First Name (Attempt 1)&#xD;
+[2025-05-31 23:04:23.333] ✓ Successfully executed: Enter First Name&#xD;
+[2025-05-31 23:04:23.334] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.432] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.459] ✓ First Name field test passed: Bob&#xD;
+[2025-05-31 23:04:23.459] Testing State dropdown...&#xD;
+[2025-05-31 23:04:23.460] Attempt 1: Trying to find 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.554] ✓ Successfully found 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.555] Executing action: Select State: Australia (Attempt 1)&#xD;
+[2025-05-31 23:04:23.691] ✓ Successfully executed: Select State: Australia&#xD;
+[2025-05-31 23:04:23.692] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.804] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.952] ✓ State dropdown test passed: Australia&#xD;
+[2025-05-31 23:04:23.953] Testing Hobby checkbox...&#xD;
+[2025-05-31 23:04:23.954] Attempt 1: Trying to find 'Cricket Hobby Checkbox' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.026] ✓ Successfully found 'Cricket Hobby Checkbox' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.027] Executing action: Select Hobby: Cricket (Attempt 1)&#xD;
+[2025-05-31 23:04:24.162] ✓ Successfully executed: Select Hobby: Cricket&#xD;
+[2025-05-31 23:04:24.163] Attempt 1: Trying to find 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.247] ✓ Successfully found 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.267] ✓ Hobby checkbox test passed: Cricket is selected&#xD;
+[2025-05-31 23:04:24.268] Validating field persistence...&#xD;
+[2025-05-31 23:04:25.321] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:25.403] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:25.419] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:25.478] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:25.575] Attempt 1: Trying to find 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:25.635] ✓ Successfully found 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:25.646] ✓ Field persistence validation passed&#xD;
+[2025-05-31 23:04:25.647] All three form fields tested successfully!&#xD;
+[2025-05-31 23:04:26.046] Test teardown completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d44a419-fed2-4ac1-bee1-3ff62eda1bdf" testId="854a6435-fb28-d7da-f7c4-c1ef0476962e" testName="ValidFormSubmission_Scenario1" computerName="DESKTOP-LGI5UEV" duration="00:00:18.9227420" startTime="2025-05-31T23:03:41.1055433+05:30" endTime="2025-05-31T23:04:00.0281066+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d44a419-fed2-4ac1-bee1-3ff62eda1bdf">
+      <Output>
+        <StdOut>[2025-05-31 23:03:46.364] Test setup completed successfully&#xD;
+[2025-05-31 23:03:46.401] Starting test with data: John, India, Dance&#xD;
+[2025-05-31 23:03:54.020] Successfully navigated to: https://app.cloudqa.io/home/AutomationPracticeForm&#xD;
+[2025-05-31 23:03:54.021] Testing First Name field...&#xD;
+[2025-05-31 23:03:54.057] Attempt 1: Trying to find 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.231] ✓ Successfully found 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.233] Executing action: Enter First Name (Attempt 1)&#xD;
+[2025-05-31 23:03:54.630] ✓ Successfully executed: Enter First Name&#xD;
+[2025-05-31 23:03:54.631] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.902] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.926] ✓ First Name field test passed: John&#xD;
+[2025-05-31 23:03:54.928] Testing State dropdown...&#xD;
+[2025-05-31 23:03:54.929] Attempt 1: Trying to find 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.054] ✓ Successfully found 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.055] Executing action: Select State: India (Attempt 1)&#xD;
+[2025-05-31 23:03:55.297] ✓ Successfully executed: Select State: India&#xD;
+[2025-05-31 23:03:55.298] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.483] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.916] ✓ State dropdown test passed: India&#xD;
+[2025-05-31 23:03:55.917] Testing Hobby checkbox...&#xD;
+[2025-05-31 23:03:55.918] Attempt 1: Trying to find 'Dance Hobby Checkbox' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.063] ✓ Successfully found 'Dance Hobby Checkbox' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.064] Executing action: Select Hobby: Dance (Attempt 1)&#xD;
+[2025-05-31 23:03:56.282] ✓ Successfully executed: Select Hobby: Dance&#xD;
+[2025-05-31 23:03:56.284] Attempt 1: Trying to find 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.413] ✓ Successfully found 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.455] ✓ Hobby checkbox test passed: Dance is selected&#xD;
+[2025-05-31 23:03:56.457] Validating field persistence...&#xD;
+[2025-05-31 23:03:57.535] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:57.668] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:57.739] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:58.028] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:58.403] Attempt 1: Trying to find 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:58.495] ✓ Successfully found 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:58.517] ✓ Field persistence validation passed&#xD;
+[2025-05-31 23:03:58.518] All three form fields tested successfully!&#xD;
+[2025-05-31 23:04:00.026] Test teardown completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26d3c65d-f9bb-47c4-8d42-275ba31f099c" testId="5b4ad030-773a-96d7-b39e-b2987b2aa87e" testName="Test1" computerName="DESKTOP-LGI5UEV" duration="00:00:00.0616850" startTime="2025-05-31T23:04:26.0889970+05:30" endTime="2025-05-31T23:04:26.1506830+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26d3c65d-f9bb-47c4-8d42-275ba31f099c" />
+    <UnitTestResult executionId="00defff9-ef3a-447d-8941-c3c6a05d9dcc" testId="ad7f6310-be1e-e8b8-e91f-8910782991ad" testName="ValidFormSubmission_Scenario2" computerName="DESKTOP-LGI5UEV" duration="00:00:13.3403800" startTime="2025-05-31T23:04:00.0720383+05:30" endTime="2025-05-31T23:04:13.4124196+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00defff9-ef3a-447d-8941-c3c6a05d9dcc">
+      <Output>
+        <StdOut>[2025-05-31 23:04:03.126] Test setup completed successfully&#xD;
+[2025-05-31 23:04:03.127] Starting test with data: Alice, Canada, Reading&#xD;
+[2025-05-31 23:04:10.110] Successfully navigated to: https://app.cloudqa.io/home/AutomationPracticeForm&#xD;
+[2025-05-31 23:04:10.111] Testing First Name field...&#xD;
+[2025-05-31 23:04:10.111] Attempt 1: Trying to find 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.201] ✓ Successfully found 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.202] Executing action: Enter First Name (Attempt 1)&#xD;
+[2025-05-31 23:04:10.438] ✓ Successfully executed: Enter First Name&#xD;
+[2025-05-31 23:04:10.439] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.565] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.593] ✓ First Name field test passed: Alice&#xD;
+[2025-05-31 23:04:10.594] Testing State dropdown...&#xD;
+[2025-05-31 23:04:10.594] Attempt 1: Trying to find 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:10.700] ✓ Successfully found 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:10.700] Executing action: Select State: Canada (Attempt 1)&#xD;
+[2025-05-31 23:04:10.841] ✓ Successfully executed: Select State: Canada&#xD;
+[2025-05-31 23:04:10.842] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:10.948] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:11.217] ✓ State dropdown test passed: Canada&#xD;
+[2025-05-31 23:04:11.218] Testing Hobby checkbox...&#xD;
+[2025-05-31 23:04:11.218] Attempt 1: Trying to find 'Reading Hobby Checkbox' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.326] ✓ Successfully found 'Reading Hobby Checkbox' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.327] Executing action: Select Hobby: Reading (Attempt 1)&#xD;
+[2025-05-31 23:04:11.475] ✓ Successfully executed: Select Hobby: Reading&#xD;
+[2025-05-31 23:04:11.476] Attempt 1: Trying to find 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.575] ✓ Successfully found 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.606] ✓ Hobby checkbox test passed: Reading is selected&#xD;
+[2025-05-31 23:04:11.607] Validating field persistence...&#xD;
+[2025-05-31 23:04:12.672] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:12.750] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:12.769] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:12.842] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:12.968] Attempt 1: Trying to find 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:13.027] ✓ Successfully found 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:13.040] ✓ Field persistence validation passed&#xD;
+[2025-05-31 23:04:13.041] All three form fields tested successfully!&#xD;
+[2025-05-31 23:04:13.411] Test teardown completed</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test1" storage="c:\users\hello\desktop\testing assignment\cloudqatests\bin\debug\net10.0\cloudqatests.dll" id="5b4ad030-773a-96d7-b39e-b2987b2aa87e">
+      <Execution id="26d3c65d-f9bb-47c4-8d42-275ba31f099c" />
+      <TestMethod codeBase="C:\Users\Hello\Desktop\Testing Assignment\CloudQATests\bin\Debug\net10.0\CloudQATests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CloudQATests.Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="ValidFormSubmission_Scenario2" storage="c:\users\hello\desktop\testing assignment\cloudqatests\bin\debug\net10.0\cloudqatests.dll" id="ad7f6310-be1e-e8b8-e91f-8910782991ad">
+      <Execution id="00defff9-ef3a-447d-8941-c3c6a05d9dcc" />
+      <TestMethod codeBase="C:\Users\Hello\Desktop\Testing Assignment\CloudQATests\bin\Debug\net10.0\CloudQATests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CloudQA.AutomationTests.CloudQAFormTests" name="ValidFormSubmission_Scenario2" />
+    </UnitTest>
+    <UnitTest name="ValidFormSubmission_Scenario3" storage="c:\users\hello\desktop\testing assignment\cloudqatests\bin\debug\net10.0\cloudqatests.dll" id="678352ef-a21b-b5cb-6b70-3ad85ee23bca">
+      <Execution id="c9f04b69-14ea-40fd-bdee-d8ee93caafb5" />
+      <TestMethod codeBase="C:\Users\Hello\Desktop\Testing Assignment\CloudQATests\bin\Debug\net10.0\CloudQATests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CloudQA.AutomationTests.CloudQAFormTests" name="ValidFormSubmission_Scenario3" />
+    </UnitTest>
+    <UnitTest name="ValidFormSubmission_Scenario1" storage="c:\users\hello\desktop\testing assignment\cloudqatests\bin\debug\net10.0\cloudqatests.dll" id="854a6435-fb28-d7da-f7c4-c1ef0476962e">
+      <Execution id="3d44a419-fed2-4ac1-bee1-3ff62eda1bdf" />
+      <TestMethod codeBase="C:\Users\Hello\Desktop\Testing Assignment\CloudQATests\bin\Debug\net10.0\CloudQATests.dll" adapterTypeName="executor://nunit3testexecutor/" className="CloudQA.AutomationTests.CloudQAFormTests" name="ValidFormSubmission_Scenario1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="678352ef-a21b-b5cb-6b70-3ad85ee23bca" executionId="c9f04b69-14ea-40fd-bdee-d8ee93caafb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="854a6435-fb28-d7da-f7c4-c1ef0476962e" executionId="3d44a419-fed2-4ac1-bee1-3ff62eda1bdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b4ad030-773a-96d7-b39e-b2987b2aa87e" executionId="26d3c65d-f9bb-47c4-8d42-275ba31f099c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad7f6310-be1e-e8b8-e91f-8910782991ad" executionId="00defff9-ef3a-447d-8941-c3c6a05d9dcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in C:\Users\Hello\Desktop\Testing Assignment\CloudQATests\bin\Debug\net10.0\CloudQATests.dll&#xD;
+   NUnit3TestExecutor discovered 4 of 4 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Starting ChromeDriver 136.0.7103.113 (76fa3c1782406c63308c70b54f228fd39c7aaa71-refs/branch-heads/7103_108@{#3}) on port 55721&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 55721.&#xD;
+[2025-05-31 23:03:46.364] Test setup completed successfully&#xD;
+[2025-05-31 23:03:46.401] Starting test with data: John, India, Dance&#xD;
+[2025-05-31 23:03:54.020] Successfully navigated to: https://app.cloudqa.io/home/AutomationPracticeForm&#xD;
+[2025-05-31 23:03:54.021] Testing First Name field...&#xD;
+[2025-05-31 23:03:54.057] Attempt 1: Trying to find 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.231] ✓ Successfully found 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.233] Executing action: Enter First Name (Attempt 1)&#xD;
+[2025-05-31 23:03:54.630] ✓ Successfully executed: Enter First Name&#xD;
+[2025-05-31 23:03:54.631] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.902] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:54.926] ✓ First Name field test passed: John&#xD;
+[2025-05-31 23:03:54.928] Testing State dropdown...&#xD;
+[2025-05-31 23:03:54.929] Attempt 1: Trying to find 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.054] ✓ Successfully found 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.055] Executing action: Select State: India (Attempt 1)&#xD;
+[2025-05-31 23:03:55.297] ✓ Successfully executed: Select State: India&#xD;
+[2025-05-31 23:03:55.298] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.483] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:55.916] ✓ State dropdown test passed: India&#xD;
+[2025-05-31 23:03:55.917] Testing Hobby checkbox...&#xD;
+[2025-05-31 23:03:55.918] Attempt 1: Trying to find 'Dance Hobby Checkbox' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.063] ✓ Successfully found 'Dance Hobby Checkbox' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.064] Executing action: Select Hobby: Dance (Attempt 1)&#xD;
+[2025-05-31 23:03:56.282] ✓ Successfully executed: Select Hobby: Dance&#xD;
+[2025-05-31 23:03:56.284] Attempt 1: Trying to find 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.413] ✓ Successfully found 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:56.455] ✓ Hobby checkbox test passed: Dance is selected&#xD;
+[2025-05-31 23:03:56.457] Validating field persistence...&#xD;
+[2025-05-31 23:03:57.535] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:57.668] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:03:57.739] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:58.028] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:03:58.403] Attempt 1: Trying to find 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:58.495] ✓ Successfully found 'Dance Hobby Checkbox for Validation' using: By.Id: Dance&#xD;
+[2025-05-31 23:03:58.517] ✓ Field persistence validation passed&#xD;
+[2025-05-31 23:03:58.518] All three form fields tested successfully!&#xD;
+[2025-05-31 23:04:00.026] Test teardown completed&#xD;
+&#xD;
+Starting ChromeDriver 136.0.7103.113 (76fa3c1782406c63308c70b54f228fd39c7aaa71-refs/branch-heads/7103_108@{#3}) on port 55808&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 55808.&#xD;
+[2025-05-31 23:04:03.126] Test setup completed successfully&#xD;
+[2025-05-31 23:04:03.127] Starting test with data: Alice, Canada, Reading&#xD;
+[2025-05-31 23:04:10.110] Successfully navigated to: https://app.cloudqa.io/home/AutomationPracticeForm&#xD;
+[2025-05-31 23:04:10.111] Testing First Name field...&#xD;
+[2025-05-31 23:04:10.111] Attempt 1: Trying to find 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.201] ✓ Successfully found 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.202] Executing action: Enter First Name (Attempt 1)&#xD;
+[2025-05-31 23:04:10.438] ✓ Successfully executed: Enter First Name&#xD;
+[2025-05-31 23:04:10.439] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.565] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:10.593] ✓ First Name field test passed: Alice&#xD;
+[2025-05-31 23:04:10.594] Testing State dropdown...&#xD;
+[2025-05-31 23:04:10.594] Attempt 1: Trying to find 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:10.700] ✓ Successfully found 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:10.700] Executing action: Select State: Canada (Attempt 1)&#xD;
+[2025-05-31 23:04:10.841] ✓ Successfully executed: Select State: Canada&#xD;
+[2025-05-31 23:04:10.842] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:10.948] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:11.217] ✓ State dropdown test passed: Canada&#xD;
+[2025-05-31 23:04:11.218] Testing Hobby checkbox...&#xD;
+[2025-05-31 23:04:11.218] Attempt 1: Trying to find 'Reading Hobby Checkbox' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.326] ✓ Successfully found 'Reading Hobby Checkbox' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.327] Executing action: Select Hobby: Reading (Attempt 1)&#xD;
+[2025-05-31 23:04:11.475] ✓ Successfully executed: Select Hobby: Reading&#xD;
+[2025-05-31 23:04:11.476] Attempt 1: Trying to find 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.575] ✓ Successfully found 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:11.606] ✓ Hobby checkbox test passed: Reading is selected&#xD;
+[2025-05-31 23:04:11.607] Validating field persistence...&#xD;
+[2025-05-31 23:04:12.672] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:12.750] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:12.769] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:12.842] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:12.968] Attempt 1: Trying to find 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:13.027] ✓ Successfully found 'Reading Hobby Checkbox for Validation' using: By.Id: Reading&#xD;
+[2025-05-31 23:04:13.040] ✓ Field persistence validation passed&#xD;
+[2025-05-31 23:04:13.041] All three form fields tested successfully!&#xD;
+[2025-05-31 23:04:13.411] Test teardown completed&#xD;
+&#xD;
+Starting ChromeDriver 136.0.7103.113 (76fa3c1782406c63308c70b54f228fd39c7aaa71-refs/branch-heads/7103_108@{#3}) on port 55889&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 55889.&#xD;
+[2025-05-31 23:04:15.784] Test setup completed successfully&#xD;
+[2025-05-31 23:04:15.786] Starting test with data: Bob, Australia, Cricket&#xD;
+[2025-05-31 23:04:23.024] Successfully navigated to: https://app.cloudqa.io/home/AutomationPracticeForm&#xD;
+[2025-05-31 23:04:23.024] Testing First Name field...&#xD;
+[2025-05-31 23:04:23.025] Attempt 1: Trying to find 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.118] ✓ Successfully found 'First Name Field' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.118] Executing action: Enter First Name (Attempt 1)&#xD;
+[2025-05-31 23:04:23.333] ✓ Successfully executed: Enter First Name&#xD;
+[2025-05-31 23:04:23.334] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.432] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:23.459] ✓ First Name field test passed: Bob&#xD;
+[2025-05-31 23:04:23.459] Testing State dropdown...&#xD;
+[2025-05-31 23:04:23.460] Attempt 1: Trying to find 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.554] ✓ Successfully found 'State Dropdown' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.555] Executing action: Select State: Australia (Attempt 1)&#xD;
+[2025-05-31 23:04:23.691] ✓ Successfully executed: Select State: Australia&#xD;
+[2025-05-31 23:04:23.692] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.804] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:23.952] ✓ State dropdown test passed: Australia&#xD;
+[2025-05-31 23:04:23.953] Testing Hobby checkbox...&#xD;
+[2025-05-31 23:04:23.954] Attempt 1: Trying to find 'Cricket Hobby Checkbox' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.026] ✓ Successfully found 'Cricket Hobby Checkbox' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.027] Executing action: Select Hobby: Cricket (Attempt 1)&#xD;
+[2025-05-31 23:04:24.162] ✓ Successfully executed: Select Hobby: Cricket&#xD;
+[2025-05-31 23:04:24.163] Attempt 1: Trying to find 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.247] ✓ Successfully found 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:24.267] ✓ Hobby checkbox test passed: Cricket is selected&#xD;
+[2025-05-31 23:04:24.268] Validating field persistence...&#xD;
+[2025-05-31 23:04:25.321] Attempt 1: Trying to find 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:25.403] ✓ Successfully found 'First Name Field for Reading' using: By.Id: fname&#xD;
+[2025-05-31 23:04:25.419] Attempt 1: Trying to find 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:25.478] ✓ Successfully found 'State Dropdown for Reading' using: By.Id: state&#xD;
+[2025-05-31 23:04:25.575] Attempt 1: Trying to find 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:25.635] ✓ Successfully found 'Cricket Hobby Checkbox for Validation' using: By.Id: Cricket&#xD;
+[2025-05-31 23:04:25.646] ✓ Field persistence validation passed&#xD;
+[2025-05-31 23:04:25.647] All three form fields tested successfully!&#xD;
+[2025-05-31 23:04:26.046] Test teardown completed&#xD;
+&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
